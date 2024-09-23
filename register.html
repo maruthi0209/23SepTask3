@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Name attribute should be used with input tag -->
+    <form action="./registrationsuccessful.html" method="get">
+
+        <!-- fieldset tag -->
+        <fieldset>
+            <legend><b>Register</b></legend>
+
+            <!-- first name -->
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname" id="firstname" required placeholder="First Name:"> <br>
+
+            <!-- last name -->
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" required> <br>
+
+            <!-- email address -->
+            <label for="emailaddress">Email Address:</label>
+            <input type="email" name="emailaddress" id="emailaddress" required> <br>
+
+            <!-- passowrd -->
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required> <br>
+
+            <!-- Radio buttons -->
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+
+            <!-- Submit button -->
+            <input type="submit" value="Register">
+
+        </fieldset>
+    </form>
+
+    <!-- back to login -->
+    <a href="./login.html">Back to Login</a>
+
+</body>
+</html>
